@@ -1,0 +1,9 @@
+local gameId = game.PlaceId
+
+if gameId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Xdwd"))()
+elseif gameId == 70671905624144 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/blob/main/StealABuddie"))()
+else
+    warn("Игра с ID "..gameId.." не поддерживается этим скриптом")
+end
