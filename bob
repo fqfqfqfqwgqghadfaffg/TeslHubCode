@@ -8,6 +8,8 @@ elseif gameId == 99567941238278 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Ink"))()
 elseif gameId == 125009265613167 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Ink"))()
+elseif gameId == 72212564918217 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/FishyFish"))()
 else
     warn("Place with ID "..gameId.." not supported")
 end
