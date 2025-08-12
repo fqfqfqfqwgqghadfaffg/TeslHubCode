@@ -14,6 +14,8 @@ elseif gameId == 73956553001240 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/BigBallVoley"))()
 elseif gameId == 118394242772887 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Dictatortesla"))()
-	else
+elseif gameId == 133945484297240 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/JunkGame"))()
+else
     warn("Place with ID "..gameId.." not supported")
 end
