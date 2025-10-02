@@ -1,0 +1,25 @@
+local gameId = game.PlaceId
+
+if gameId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Xdwd"))()
+elseif gameId == 70671905624144 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/StealABuddie"))()
+elseif gameId == 99567941238278 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Ink"))()
+elseif gameId == 125009265613167 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Ink"))()
+elseif gameId == 72212564918217 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/FishyFish"))()
+elseif gameId == 73956553001240 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/BigBallVoley"))()
+elseif gameId == 118394242772887 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/Dictatortesla"))()
+elseif gameId == 133945484297240 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/JunkGame"))()
+elseif gameId == 121864768012064 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/NewFish"))()
+elseif gameId == 7239319209 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fqfqfqfqwgqghadfaffg/TeslHubCode/refs/heads/main/NotOhio"))()
+else
+    warn("Place with ID " .. gameId .. " not supported")
+end
